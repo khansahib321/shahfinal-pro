@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Accessible Photo Gallery</h1>
+  </header>
+
+  <section id="gallery" role="region" aria-labelledby="galleryTitle">
+    <h2 id="galleryTitle">Gallery Section</h2>
+
+    <div class="gallery-container">
+      <figure tabindex="0" aria-label="Image 1: Sunset over a calm sea">
+        <img src="images/sunset.jpg" alt="A vibrant sunset over a calm sea with soft waves" />
+        <figcaption>Image 1: Sunset over the Sea</figcaption>
+      </figure>
+
+      <figure tabindex="0" aria-label="Image 2: Snow-covered Mountain Peak">
+        <img src="images/snowy.jpeg" alt="A snow-covered mountain peak under a bright blue sky" />
+        <figcaption>Image 2: Snow-covered Mountain Peak</figcaption>
+      </figure>
+
+      <figure tabindex="0" aria-label="Image 3: City Skyline at Night">
+        <img src="images/autumn.jpeg" alt="A city skyline illuminated at night with skyscrapers" />
+        <figcaption>Image 3: City Skyline at Night</figcaption>
+      </figure>
+
+      <figure tabindex="0" aria-label="Image 4: Forest Path in Autumn">
+        <img src="images/forest.jpeg" alt="A forest path covered in autumn leaves, bathed in golden sunlight" />
+        <figcaption>Image 4: Autumn Forest Path</figcaption>
+      </figure>
+
+      <figure tabindex="0" aria-label="Image 5: Tropical Beach with Clear Water">
+        <img src="images/water.jpeg" alt="A tropical beach with turquoise water and palm trees" />
+        <figcaption>Image 5: Tropical Beach</figcaption>
+      </figure>
+
+      <figure tabindex="0" aria-label="Image 6: A Peaceful Lake in the Mountains">
+        <img src="images/mountain.jpeg" alt="
+         under a clear sky" />
+        <figcaption>Image 6: Peaceful Mountain Lake</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <footer>
+    <p>Photo Gallery - Made with Accessibility in Mind</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
